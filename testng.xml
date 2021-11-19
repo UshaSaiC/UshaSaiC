@@ -5,7 +5,6 @@
         <classes>
             <class name="HelloWorld"/>
             <!--             <class name ="ListUser"/>-->
-            <!--             <class name ="GetSingleUser"/>-->
             <!--             <class name ="CreateUser"/>-->
         </classes>
     </test>

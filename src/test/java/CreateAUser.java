@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.given;
 public class CreateAUser {
 
     @Test
-    public void testCreatingAUser() {
+    public void testCreatingAUserAndValidatingResponseCodeAndLoggingResponseBody() {
          String requestBody = "{\n" +
                 "  \"name\": \"test\",\n" +
                 "  \"job\": \"testing\" \n}";
